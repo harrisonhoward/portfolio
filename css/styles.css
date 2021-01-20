@@ -1,0 +1,104 @@
+/** Global **/
+
+html, body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: #1b1b1b;
+    text-align: left;
+}
+
+main {
+    margin-left: 160px;
+    font-size: 1.27rem;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+}
+
+section {
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+code {
+    color: #56bddd;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+/** Nav Bar **/
+
+.side-nav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #0e0e0e;
+}
+
+.nav-items a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 1.13rem;
+    color: #818181;
+    display: block;
+}
+
+.nav-items a:hover {
+    color: #f1f1f1
+}
+
+/** Me **/
+
+#MeProfessional {
+    width: 311px;
+    height: 477px;
+}
+
+/** Media Queries **/
+
+@media only screen and (max-width: 1200px) {
+    section {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    section {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    main {
+        margin-left: 120px;
+    }
+    #MeProfessional {
+        width: 211px;
+        height: 317px;
+    }
+    .side-nav {
+        width: 120px;
+    }
+    .nav-items a {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    main {
+        margin-left: 100px;
+    }
+    .side-nav {
+        width: 100px;
+    }
+    .nav-items a {
+        font-size: 0.8rem;
+    }
+}
