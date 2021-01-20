@@ -70,6 +70,9 @@ p {
 }
 
 @media only screen and (max-width: 800px) {
+    html, body {
+        font-size: 20px;
+    }
     section {
         width: 100%;
     }
@@ -83,6 +86,9 @@ p {
 }
 
 @media only screen and (max-width: 650px) {
+    html, body {
+        font-size: 18px;
+    }
     main {
         margin-left: 120px;
     }
@@ -102,6 +108,9 @@ p {
 }
 
 @media only screen and (max-width: 480px) {
+    html, body {
+        font-size: 16px;
+    }
     main {
         margin-left: 100px;
     }
