@@ -62,7 +62,7 @@ h3 {
     display: block;
 }
 
-.nav-items a:hover {
+.nav-items a:hover, .nav-items .active {
     color: #f1f1f1
 }
 
