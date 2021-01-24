@@ -28,6 +28,18 @@ p {
     font-size: 1.1rem;
 }
 
+h3 {
+    font-size: 1.40rem;
+}
+
+.lists h3 {
+    padding-left: 30px;
+}
+
+.lists ul, .lists ol {
+    margin-left: 40px;
+}
+
 /** Nav Bar **/
 
 .side-nav {
