@@ -197,4 +197,12 @@ h3 {
     .nav-items a {
         font-size: 0.8rem;
     }
+    .project-item {
+        width: 225px;
+        height: 400px;
+    }
+    .project-item img {
+        width: 185px;
+        height: 46.25px;
+    }
 }
