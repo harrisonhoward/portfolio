@@ -121,6 +121,34 @@ h3 {
     color: #f1f1f1
 }
 
+/** Contact **/
+
+.contact-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.contact-item {
+    padding-right: 20px;
+}
+
+.contact-item a {
+    text-decoration: none;
+    font-size: 1.13rem;
+    color: #818181;
+}
+
+.contact-item a:hover, .contact-item .active {
+    color: #f1f1f1
+}
+
+.contact-item a, .contact-item i {
+    font-size: 0.9rem;
+}
+
 /** Media Queries **/
 
 @media only screen and (max-width: 1200px) {
