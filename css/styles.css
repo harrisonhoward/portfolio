@@ -40,6 +40,38 @@ h3 {
     margin-left: 40px;
 }
 
+.hidden {
+    display: none;
+}
+
+.hidden .project-item {
+    display: none;
+}
+
+.fadeOut * {
+    animation: fadeOut ease 1s forwards;
+    -webkit-animation: fadeOut ease 1s forwards;
+    -moz-animation: fadeOut ease 1s forwards;
+    -o-animation: fadeOut ease 1s forwards;
+    -ms-animation: fadeOut ease 1s;
+}
+
+.visible {
+    display: unset;
+}
+
+.visible .project-item {
+    display: unset;
+}
+
+.fadeIn * {
+    animation: fadeIn ease 1s forwards;
+    -webkit-animation: fadeIn ease 1s forwards;
+    -moz-animation: fadeIn ease 1s forwards;
+    -o-animation: fadeIn ease 1s forwards;
+    -ms-animation: fadeIn ease 1s;
+}
+
 /** Nav Bar **/
 
 .side-nav {
@@ -60,10 +92,11 @@ h3 {
     font-size: 1.13rem;
     color: #818181;
     display: block;
+    cursor: pointer;
 }
 
 .nav-items a:hover, .nav-items .active {
-    color: #f1f1f1
+    color: #f1f1f1;
 }
 
 /** Me **/
@@ -167,9 +200,6 @@ h3 {
 }
 
 @media only screen and (max-width: 740px) {
-    #projects {
-        display: unset;
-    }
     .project-item {
         min-width: unset;
         min-height: unset;
@@ -244,5 +274,97 @@ h3 {
     .project-item img {
         width: 185px;
         height: 46.25px;
+    }
+}
+
+/** Keyframes **/
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-ms-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
     }
 }

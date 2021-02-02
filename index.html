@@ -31,19 +31,18 @@
         <meta property="og:image" content="https://i.imgur.com/OZhSuKd.png">
         <link rel="stylesheet" href="css/styles.css" type="text/css">
         <link rel="stylesheet" href="css/fontawesome-5.15.2/css/all.min.css" type="text/css">
-        <script src="scripts/script.js"></script>
     </head>
     <body>
         <nav class="side-nav">
             <div class="nav-items">
-                <a id="navMe" href="#me">Me</a>
-                <a id="navSkills" href="#skills">Skills</a>
-                <a id="navProjects" href="#projects">Projects</a>
-                <a id="navContact" href="#contact">Contact</a>
+                <a id="navMe">Me</a>
+                <a id="navSkills">Skills</a>
+                <a id="navProjects">Projects</a>
+                <a id="navContact">Contact</a>
             </div>
         </nav>
         <main>
-            <section id="me">
+            <section id="me" class="hidden">
                 <h2>About Me</h2>
                 <p>
                     Hi, I am Harrison Howard (aka
@@ -82,7 +81,7 @@
                     technologies should they arise).
                 </p>
             </section>
-            <section id="skills" class="lists">
+            <section id="skills" class="lists hidden">
                 <h2>Skills</h2>
                 <h3>Languages</h3>
                 <ul>
@@ -104,7 +103,7 @@
                     <li>Git & Github</li>
                 </ul>
             </section>
-            <section id="projects">
+            <section id="projects" class="hidden">
                 <article class="project-item">
                     <img src="resources/projects/ForbiddenStatistics.gif" alt="Forbidden Statistics">
                     <h2>Forbidden Statistics</h2>
@@ -168,7 +167,7 @@
                     </a>
                 </article>
             </section>
-            <section id="contact">
+            <section id="contact" class="hidden">
                 <h3>Contact Me / Find Me</h3>
                 <div class="contact-items">
                     <article class="contact-item">
@@ -204,5 +203,6 @@
                 </div>
             </section>
         </main>
+        <script src="scripts/script.js"></script>
     </body>
 </html>
