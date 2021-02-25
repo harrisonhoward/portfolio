@@ -9,4 +9,4 @@ If you notice any issues with website, please contact me directly at
 
 ## Link
 
-[Github Pages](https://forbidden-duck.github.io/portfolio/)
+[Github Pages](https://portfolio.harrisonhoward.xyz/)
